@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 });
 
 const Hero = () => {
-  const targetDate = new Date("2024-01-19T10:00:00");
+  const targetDate = new Date("2025-01-31T10:00:00");
   return (
     <div
       className={`w-full h-full flex flex-col justify-center items-center ${montserrat.className} bg-hero_background bg-cover bg-no-repeat bg-center `}
