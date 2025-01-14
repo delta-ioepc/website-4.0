@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import EventCard from './EventCard';
-import { Poppins, Montserrat } from 'next/font/google';
-import { AnimatePresence, motion } from 'framer-motion';
-import { events } from '../../../data/data';
+import React, { useState } from "react";
+import EventCard from "./EventCard";
+import { Poppins, Montserrat } from "next/font/google";
+import { AnimatePresence, motion } from "framer-motion";
+import { events } from "../../../data/data";
 
 const poppins = Poppins({
-  weight: ['400', '200', '100', '300', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
+  weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
 });
 const montserrat = Montserrat({
-  weight: ['400', '200', '100', '300', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
+  weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
 });
 
 const OurEvents = () => {
@@ -31,7 +31,7 @@ const OurEvents = () => {
         <h3
           className={`mt-[4.5rem] font-extrabold text-black border-b-2 mb-8 mx-auto text-[40px] border-[#1f1b4e] ${poppins.className} `}
         >
-          Past <span className="text-[#1f1b4e]">Events</span>
+          Upcoming <span className="text-[#1f1b4e]">Events</span>
         </h3>
       </div>
       <div
